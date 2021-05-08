@@ -17,7 +17,7 @@ public interface LambdaTest1 {
         };
         lambdaTest111.test();
         //lambda表达式调用
-        LambdaTest1 lambdaTest1111 = ()->System.out.println("lambda表达式调用") ;
+        LambdaTest1 lambdaTest1111 = ()->System.out.println("lambda表达调用");
         lambdaTest1111.test();
 
     }
