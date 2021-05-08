@@ -15,7 +15,7 @@ public interface LambdaTest1 {
                 System.out.println("匿名内部类用");
             }
         };
-        lambdaTest111.test();
+        lambdaTest111.test();//https://github.com/2045366710/javadesignpattern.git
         //lambda表达式调用
         LambdaTest1 lambdaTest1111 = ()->System.out.println("lambda表达式调用") ;
         lambdaTest1111.test();
