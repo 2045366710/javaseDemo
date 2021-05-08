@@ -12,7 +12,7 @@ public interface LambdaTest1 {
         LambdaTest1 lambdaTest111 = new LambdaTest1() {
             @Override
             public void test() {
-                System.out.println("匿名内部类调用");
+                System.out.println("匿名内部类用");
             }
         };
         lambdaTest111.test();
